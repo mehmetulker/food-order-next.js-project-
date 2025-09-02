@@ -21,16 +21,16 @@ const Header = () => {
         <nav className="hidden sm:block">
           <ul className="flex justify-center items-center space-x-4">
             <li className="px-[5px] py-[10px] uppercase hover:text-primary gap-x-2 cursor-pointer">
-              <Link href="http:/">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li className="px-[5px] py-[10px] uppercase hover:text-primary gap-x-2 cursor-pointer">
-              <Link href="http:/menu">Menu</Link>
+              <Link href="/menu">Menu</Link>
             </li>
             <li className="px-[5px] py-[10px] uppercase hover:text-primary gap-x-2 cursor-pointer">
-              <Link href="http:/about">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li className="px-[5px] py-[10px] uppercase hover:text-primary gap-x-2 cursor-pointer">
-              <Link href="http:/reservation">Book Table</Link>
+              <Link href="/reservation">Book Table</Link>
             </li>
           </ul>
         </nav>
